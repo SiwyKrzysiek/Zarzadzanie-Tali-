@@ -67,16 +67,22 @@ namespace Zarzadzanie_talią
 
         private void moveRight_Click(object sender, EventArgs e)
         {
-            deck2.Add(deck1.Deal(listBox1.SelectedIndex));
-            RedrawDeck(1);
-            RedrawDeck(2);
+            if (listBox1.SelectedIndex != -1)
+            {
+                deck2.Add(deck1.Deal(listBox1.SelectedIndex));
+                RedrawDeck(1);
+                RedrawDeck(2);
+            }
         }
 
         private void moveLeft_Click(object sender, EventArgs e)
         {
-            deck1.Add(deck2.Deal(listBox2.SelectedIndex));
-            RedrawDeck(1);
-            RedrawDeck(2);
+            if (listBox2.SelectedIndex != -1)
+            {
+                deck1.Add(deck2.Deal(listBox2.SelectedIndex));
+                RedrawDeck(1);
+                RedrawDeck(2);
+            }
         }
 
         void RedrawDeck(int deckNumber)
