@@ -54,6 +54,22 @@ namespace Zarzadzanie_talią
             }
         }
 
+        public IEnumerable<string> GetCardNames()
+        {
+            List<string> nazwy = new List<string>();
+
+            foreach (Card card in cards)
+            {
+                nazwy.Add(card.Name);
+            }
+            return nazwy;
+        }
+
+        public void Sort()
+        {
+            cards.Sort(new CardComperer_bySuit);
+        }
+
         
     }
 }
