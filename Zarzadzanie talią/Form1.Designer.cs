@@ -124,6 +124,8 @@
             // 
             // moveRight
             // 
+            this.moveRight.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.moveRight.Location = new System.Drawing.Point(140, 99);
             this.moveRight.Name = "moveRight";
             this.moveRight.Size = new System.Drawing.Size(47, 23);
@@ -133,6 +135,8 @@
             // 
             // moveLeft
             // 
+            this.moveLeft.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.moveLeft.Location = new System.Drawing.Point(140, 138);
             this.moveLeft.Name = "moveLeft";
             this.moveLeft.Size = new System.Drawing.Size(47, 23);
