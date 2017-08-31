@@ -70,6 +70,7 @@
             this.restoreDeck1.TabIndex = 2;
             this.restoreDeck1.Text = "Przywróć zestaw 1.";
             this.restoreDeck1.UseVisualStyleBackColor = true;
+            this.restoreDeck1.Click += new System.EventHandler(this.restoreDeck1_Click);
             // 
             // shuffleDeck1
             // 
@@ -80,6 +81,7 @@
             this.shuffleDeck1.TabIndex = 3;
             this.shuffleDeck1.Text = "Wymieszaj zestaw 1.";
             this.shuffleDeck1.UseVisualStyleBackColor = true;
+            this.shuffleDeck1.Click += new System.EventHandler(this.shuffleDeck1_Click);
             // 
             // listBox2
             // 
@@ -111,6 +113,7 @@
             this.restoreDeck2.TabIndex = 6;
             this.restoreDeck2.Text = "Przywróć zestaw 2.";
             this.restoreDeck2.UseVisualStyleBackColor = true;
+            this.restoreDeck2.Click += new System.EventHandler(this.restoreDeck2_Click);
             // 
             // shuffleDeck2
             // 
@@ -121,6 +124,7 @@
             this.shuffleDeck2.TabIndex = 7;
             this.shuffleDeck2.Text = "Wymieszaj zestaw 2.";
             this.shuffleDeck2.UseVisualStyleBackColor = true;
+            this.shuffleDeck2.Click += new System.EventHandler(this.shuffleDeck2_Click);
             // 
             // moveRight
             // 
@@ -132,6 +136,7 @@
             this.moveRight.TabIndex = 8;
             this.moveRight.Text = ">>";
             this.moveRight.UseVisualStyleBackColor = true;
+            this.moveRight.Click += new System.EventHandler(this.moveRight_Click);
             // 
             // moveLeft
             // 
@@ -143,6 +148,7 @@
             this.moveLeft.TabIndex = 9;
             this.moveLeft.Text = "<<";
             this.moveLeft.UseVisualStyleBackColor = true;
+            this.moveLeft.Click += new System.EventHandler(this.moveLeft_Click);
             // 
             // Form1
             // 

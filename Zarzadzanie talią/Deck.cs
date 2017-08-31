@@ -50,7 +50,7 @@ namespace Zarzadzanie_talią
 
                 Card buffor = cards[i];
                 cards[i] = cards[j];
-                cards[j] = cards[i];
+                cards[j] = buffor;
             }
         }
 
@@ -67,7 +67,7 @@ namespace Zarzadzanie_talią
 
         public void Sort()
         {
-            cards.Sort(new CardComperer_bySuit);
+            cards.Sort(new CardComperer_bySuit());
         }
 
         
